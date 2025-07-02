@@ -6,7 +6,7 @@ const packages = [
     id: 1,
     image: "/public/img/pakage8.webp",
     location: "Maldives",
-    title: "Cheap Flights to Accra",
+    title: "Cheap Flights to Accra Testing",
     reviews: "(25 Reviews)",
     price: "$999"
   },

@@ -15,7 +15,7 @@ const About2 = () => {
           className="rounded-2xl w-full h-auto object-cover"
         />
         <div className="absolute top-4 left-4 bg-[#60ba30] text-white px-4 py-2 rounded-xl shadow-xl">
-          10+ Years Of Experience
+          10+ Years Of Experience Test
         </div>
       </div>
 

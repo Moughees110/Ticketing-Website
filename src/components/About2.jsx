@@ -11,7 +11,7 @@ const About2 = () => {
       <div className="relative w-full md:w-1/2">
         <img
           src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
-          alt="About"
+          alt="About Us"
           className="rounded-2xl w-full h-auto object-cover"
         />
         <div className="absolute top-4 left-4 bg-[#60ba30] text-white px-4 py-2 rounded-xl shadow-xl">

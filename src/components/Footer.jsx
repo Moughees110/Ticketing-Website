@@ -20,7 +20,7 @@ const Footer = () => {
     <footer className="bg-[#263300] text-white px-6 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
-          <img src={logo} alt="Logo" className="h-12 mb-4" />
+          <img src={logo} alt="Logo" className="h-25 mb-4" />
           <p className="text-sm mb-4">
             Traviazo is a Travel Company Offering Online Travel Products And
             Services. Our Customers Can Access Our Web Site For A ‘One-Stop
@@ -136,12 +136,14 @@ const Footer = () => {
               placeholder="Your email"
               className="px-3 py-2 border border-gray-100 rounded-md text-white transition duration-700 ease-in-out focus:outline-none focus:ring-1 focus:ring-[#60ba30] focus:border-[#60ba30] focus:scale-95"
             />
+            <a href="#home">
             <button
               onClick={() => navigate("/")}
               className="flex items-center justify-center space-x-2 bg-[#60ba30] text-white px-3 py-2 rounded-lg hover:bg-white hover:text-[#60ba30] transition-colors"
             >
               <Send className="w-4 h-4" /> <span>Subscribe Now</span>
             </button>
+            </a>
           </div>
         </div>
       </div>

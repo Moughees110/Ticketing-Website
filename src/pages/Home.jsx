@@ -58,7 +58,7 @@ const Home = () => {
 
   return (
     <div className="relative w-full min-h-screen">
-      <div className="relative w-full h-[70vh]">
+      <div className="relative w-full h-[70vh]" id="home">
         <Slider ref={sliderRef} {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="relative">
@@ -162,6 +162,7 @@ const Home = () => {
               onChange={(date) => setDepartureDate(date)}
               placeholderText="Departure Date"
               className="border border-[#263300] p-2 rounded-lg w-full transition duration-700 ease-in-out focus:outline-none focus:ring-1 focus:ring-[#60ba30] focus:border-[#60ba30] focus:scale-95"
+              wrapperClassName="w-full"
             />
           </div>
           {tripType === "return" && (
@@ -174,6 +175,7 @@ const Home = () => {
                 onChange={(date) => setReturnDate(date)}
                 placeholderText="Return Date"
                 className="border border-[#263300] p-2 rounded-lg w-full transition duration-700 ease-in-out focus:outline-none focus:ring-1 focus:ring-[#60ba30] focus:border-[#60ba30] focus:scale-95"
+                wrapperClassName="w-full"
               />
             </div>
           )}
@@ -217,7 +219,7 @@ const Home = () => {
               className="border border-[#263300] p-2 rounded-lg w-full transition duration-700 ease-in-out focus:outline-none focus:ring-1 focus:ring-[#60ba30] focus:border-[#60ba30] focus:scale-95"
             />
           </div>
-          <div>
+          <div className="md:col-span-2 w-full">
             <label className="font-medium mb-2 block text-[#263300]">
               Your Email
             </label>

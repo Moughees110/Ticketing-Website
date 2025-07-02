@@ -111,14 +111,15 @@ const Navbar = () => {
             <Headphones className="w-4 h-4" /> <span>Support & Contact</span>
           </NavLink>
 
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden bg-white">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
         {/* 🔽 Mobile menu */}
-        {isOpen && (
-          <div className="flex flex-col space-y-4 mt-4 md:hidden">
+       {isOpen && (
+  <div className="flex flex-col space-y-4 mt-0 md:hidden bg-white p-4 shadow-md rounded-md z-50">
+
             <NavLink to="/" className={linkClasses}>
               <Home className="w-4 h-4" /> <span>Home</span>
             </NavLink>

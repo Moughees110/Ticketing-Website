@@ -42,8 +42,8 @@ const BackToTop = () => {
       >
         <defs>
           <linearGradient id="waveGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#f97316" />
-            <stop offset="100%" stopColor="#f97316" />
+            <stop offset="0%" stopColor="#60ba30" />
+            <stop offset="100%" stopColor="#60ba30" />
           </linearGradient>
         </defs>
         <motion.path

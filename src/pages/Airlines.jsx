@@ -149,7 +149,7 @@ const Airlines = () => {
               Home
             </button>
             <ChevronsRight className="text-[#60ba30] w-5 h-5" />
-            <span className="text-white">Destinations</span>
+            <span className="text-white">Airlines</span>
           </div>
         </div>
       </div>

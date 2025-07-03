@@ -1,17 +1,23 @@
 import React from "react";
-import { Check } from "lucide-react";
+import { Check, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+
 const About2 = () => {
   const navigate = useNavigate();
+
+  // 👇 Image data object
+  const imageData = {
+    url: "/public/img/about2.jpg",
+    alt: "About Us"
+  };
 
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl mx-auto px-4 py-12">
       {/* Left Image Section */}
       <div className="relative w-full md:w-1/2">
         <img
-          src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
-          alt="About Us"
+          src={imageData.url} // 👈 use from object
+          alt={imageData.alt}
           className="rounded-2xl w-full h-auto object-cover"
         />
         <div className="absolute top-4 left-4 bg-[#60ba30] text-white px-4 py-2 rounded-xl shadow-xl">
@@ -30,8 +36,7 @@ const About2 = () => {
           Traviazo is a Travel company offering online travel products and
           services. Our customers can access our website for a ‘one-stop shop’
           including access to specially negotiated airfares, hotels, car rental,
-          and insurance. As a travel solution provider, we have made our mark in
-          a crowded and opaque marketplace by being what our...
+          and insurance...
         </p>
 
         {/* Feature List */}
@@ -53,7 +58,6 @@ const About2 = () => {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          {/* About Us Button */}
           <button
             onClick={() => navigate("/about-us")}
             className="flex items-center gap-2 bg-[#60ba30] text-white px-5 py-2 rounded-lg hover:bg-[#263300] transition duration-300"
@@ -61,8 +65,6 @@ const About2 = () => {
             About Us
             <ArrowRight className="w-4 h-4" />
           </button>
-
-          {/* Contact Us Button */}
           <button
             onClick={() => navigate("/contact")}
             className="flex items-center gap-2 border border-[#263300] text-[#263300] px-5 py-2 rounded-lg hover:bg-[#60ba30] hover:text-white hover:border-[#60ba30] transition duration-300"

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const packages = [
   {
     id: 1,
-    image: "/img/pakage8.webp",
+    image: "/public/img/pakage8.webp",
     location: "Maldives",
     title: "Cheap Flights to Accra",
     reviews: "(25 Reviews)",
@@ -13,7 +13,7 @@ const packages = [
   },
   {
     id: 2,
-    image: "/img/pakage7.webp",
+    image: "/public/img/pakage7.webp",
     location: "Switzerland",
     title: "Cheap Flights to Entebbe",
     reviews: "(40 Reviews)",
@@ -21,7 +21,7 @@ const packages = [
   },
   {
     id: 3,
-    image: "/img/home2.jpg",
+    image: "/public/img/home2.jpg",
     location: "Bali",
     title: "Cheap Flights to Lagos",
     reviews: "(30 Reviews)",
@@ -29,7 +29,7 @@ const packages = [
   },
   {
     id: 4,
-    image: "/img/pakage5.webp",
+    image: "/public/img/pakage5.webp",
     location: "Japan",
     title: "Cheap Flights to Dakar",
     reviews: "(18 Reviews)",
@@ -37,7 +37,7 @@ const packages = [
   },
   {
     id: 5,
-    image: "/img/pakage4.webp",
+    image: "/public/img/pakage4.webp",
     location: "Egypt",
     title: "Cheap Flights to Harare",
     reviews: "(22 Reviews)",
@@ -45,7 +45,7 @@ const packages = [
   },
   {
     id: 6,
-    image: "/img/pakage.jpg",
+    image: "/public/img/pakage.jpg",
     location: "Australia",
     title: "Cheap Flights to Zanzibar",
     reviews: "(35 Reviews)",

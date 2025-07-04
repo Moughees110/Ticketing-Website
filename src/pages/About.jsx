@@ -10,12 +10,18 @@ import Stats from "../components/Stats";
 const AboutUs = () => {
   const navigate = useNavigate();
 
+  // 👇 Hero section background image object
+  const heroImage = {
+    url: "/public/img/about.jpg", // ✅ should be in public/img folder
+    alt: "About Us Banner"
+  };
+
   return (
     <div>
       {/* Hero Section */}
       <div
         className="h-[60vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{ backgroundImage: "url('/img/about.jpg')" }} // ✅ Removed /public
+        style={{ backgroundImage: `url('${heroImage.url}')` }} // 👈 used from object
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 text-center text-white px-4">

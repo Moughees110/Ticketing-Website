@@ -14,7 +14,7 @@ const destinations = [
     location: "Switzerland"
   },
   {
-    image: "/public/img/destination2.webp",
+    image: "/public/img/destination5.webp",
     title: " Cheap Flights to City Lights",
     location: "New York"
   },

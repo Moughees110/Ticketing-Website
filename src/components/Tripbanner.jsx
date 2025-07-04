@@ -4,11 +4,18 @@ import { useNavigate } from "react-router-dom";
 
 const TripBanner = () => {
   const navigate = useNavigate();
+
+  // 👇 Background image object
+  const bannerImage = {
+    url: "/img/tripp3.jpeg", // Make sure this image exists in public/img/
+    alt: "Trip Banner Image"
+  };
+
   return (
     <div
       className="w-full h-[350px] bg-center bg-cover flex items-center justify-center relative"
       style={{
-        backgroundImage: "url('/img/tripp3.jpeg')" // ✅ fix: no /public prefix
+        backgroundImage: `url('${bannerImage.url}')` // 👈 use from object
       }}
     >
       <div className="absolute inset-0 bg-black/40" />

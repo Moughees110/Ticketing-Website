@@ -190,7 +190,9 @@ const Destination = () => {
                       per/Person
                     </span>
                   </p>
-                  <button className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition">
+                  <button
+                  onClick={() => navigate("/ddetail")}
+                  className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition">
                     Equip Now <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { MapPin, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const destinations = [
@@ -36,6 +37,8 @@ const destinations = [
 ];
 
 const Dest2 = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="py-16">
       <div className="text-center mb-8">
@@ -76,7 +79,9 @@ const Dest2 = () => {
               <div className="flex items-center gap-2 text-gray-600 relative">
                 <MapPin className="w-4 h-4" />
                 <span>{dest.location}</span>
-                <ArrowRight className="ml-auto bg-[#60ba30] text-white rounded-full p-1 w-8 h-8 hover:bg-[#263300]" />
+                <ArrowRight  
+                onClick={() => navigate("/ddetail")}
+                className="ml-auto bg-[#60ba30] text-white rounded-full p-1 w-8 h-8 hover:bg-[#263300]" />
               </div>
             </div>
           </motion.div>

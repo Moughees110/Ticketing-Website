@@ -15,6 +15,9 @@ import Refundpolicy from "./pages/Refundpolicy.jsx";
 import Disclaimer from "./pages/Disclaimer.jsx";
 import Traveltip from "./pages/Traveltip.jsx";
 import Faq from "./pages/Faq.jsx";
+import Ddetail from "./components/Ddetail.jsx";
+import Airdetail from "./components/Airdetail.jsx";
+import Pakagedetail from "./components/Pakagedetail.jsx";
 
 
 const router = createBrowserRouter([
@@ -24,14 +27,17 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "destination", element: <Destination /> },
       { path: "airlines", element: <Airlines /> },
-      { path: "about-us", element: <AboutUs/> },
+      { path: "about-us", element: <AboutUs /> },
       { path: "contact", element: <Contact /> },
-      { path: "privacy-policy", element: <Privacypolicy/> },
-      { path: "terms-conditions", element: <Term/> },
-      { path: "refund-policy", element: <Refundpolicy/> },
-      { path: "disclaimer", element: <Disclaimer/> },
-      { path: "travel-tips", element: <Traveltip/> },
-      { path: "faq", element: <Faq/> }
+      { path: "privacy-policy", element: <Privacypolicy /> },
+      { path: "terms-conditions", element: <Term /> },
+      { path: "refund-policy", element: <Refundpolicy /> },
+      { path: "disclaimer", element: <Disclaimer /> },
+      { path: "travel-tips", element: <Traveltip /> },
+      { path: "faq", element: <Faq /> },
+      { path: "ddetail", element: <Ddetail/> },
+      { path: "airdetal", element: <Airdetail/> },
+      { path: "pakagedetail", element: <Pakagedetail/> }
     ]
   }
 ]);

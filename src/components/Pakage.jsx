@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { MapPin, ArrowRight } from "lucide-react";
 
 const packages = [
@@ -53,6 +54,7 @@ const packages = [
 ];
 
 const Pakage = () => {
+    const navigate = useNavigate();
   return (
     <div className="max-w-7xl text-center mx-auto px-4 py-12">
       <h2 className="text-2xl text-[#60ba30] font-bold mb-2">Top Tours</h2>
@@ -98,7 +100,9 @@ const Pakage = () => {
                     per/Person
                   </span>
                 </p>
-                <button className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition">
+                <button
+                 onClick={() => navigate("/pakagedetail")}
+                className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition">
                   Equip Now <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

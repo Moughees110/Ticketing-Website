@@ -5,7 +5,7 @@ import { MapPin, ArrowRight } from "lucide-react";
 const packages = [
   {
     id: 1,
-    image: "/public/img/pakage8.webp",
+    image: "/img/pakage8.webp",
     location: "Maldives",
     title: "Cheap Flights to Accra",
     reviews: "(25 Reviews)",
@@ -13,7 +13,7 @@ const packages = [
   },
   {
     id: 2,
-    image: "/public/img/pakage7.webp",
+    image: "/img/pakage7.webp",
     location: "Switzerland",
     title: "Cheap Flights to Entebbe",
     reviews: "(40 Reviews)",
@@ -21,7 +21,7 @@ const packages = [
   },
   {
     id: 3,
-    image: "/public/img/home2.jpg",
+    image: "/img/home2.jpg",
     location: "Bali",
     title: "Cheap Flights to Lagos",
     reviews: "(30 Reviews)",
@@ -29,7 +29,7 @@ const packages = [
   },
   {
     id: 4,
-    image: "/public/img/pakage5.webp",
+    image: "/img/pakage5.webp",
     location: "Japan",
     title: "Cheap Flights to Dakar",
     reviews: "(18 Reviews)",
@@ -37,7 +37,7 @@ const packages = [
   },
   {
     id: 5,
-    image: "/public/img/pakage4.webp",
+    image: "/img/pakage4.webp",
     location: "Egypt",
     title: "Cheap Flights to Harare",
     reviews: "(22 Reviews)",
@@ -45,7 +45,7 @@ const packages = [
   },
   {
     id: 6,
-    image: "/public/img/pakage.jpg",
+    image: "/img/pakage.jpg",
     location: "Australia",
     title: "Cheap Flights to Zanzibar",
     reviews: "(35 Reviews)",
@@ -54,7 +54,7 @@ const packages = [
 ];
 
 const Pakage = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <div className="max-w-7xl text-center mx-auto px-4 py-12">
       <h2 className="text-2xl text-[#60ba30] font-bold mb-2">Top Tours</h2>
@@ -101,8 +101,9 @@ const Pakage = () => {
                   </span>
                 </p>
                 <button
-                 onClick={() => navigate("/pakagedetail")}
-                className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition">
+                  onClick={() => navigate("/pakagedetail")}
+                  className="flex items-center gap-2 border border-[#60ba30] text-[#60ba30]  px-4 py-2 rounded-full hover:bg-[#263300] hover:text-white hover:border-[#263300] transition"
+                >
                   Equip Now <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

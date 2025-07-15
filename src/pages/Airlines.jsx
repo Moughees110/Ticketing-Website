@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const packages = [
   {
     id: 1,
-    image: "/public/img/british.jpg",
+    image: "/img/british.jpg",
     location: "Maldives",
     title: "Cheap Flights with British airway",
     reviews: "(25 Reviews)",
@@ -14,7 +14,7 @@ const packages = [
   },
   {
     id: 2,
-    image: "/public/img/brussels.jpeg",
+    image: "/img/brussels.jpeg",
     location: "Switzerland",
     title: "Cheap Flights with Brussels airway",
     reviews: "(40 Reviews)",
@@ -22,7 +22,7 @@ const packages = [
   },
   {
     id: 3,
-    image: "/public/img/canada.jpg",
+    image: "/img/canada.jpg",
     location: "Bali",
     title: "Cheap Flights with canada airway",
     reviews: "(30 Reviews)",
@@ -30,7 +30,7 @@ const packages = [
   },
   {
     id: 4,
-    image: "/public/img/egypt.jpg",
+    image: "/img/egypt.jpg",
     location: "Japan",
     title: "Cheap Flights with Egypt airway",
     reviews: "(18 Reviews)",
@@ -38,7 +38,7 @@ const packages = [
   },
   {
     id: 5,
-    image: "/public/img/emirates.jpg",
+    image: "/img/emirates.jpg",
     location: "Egypt",
     title: "Cheap Flights with Emirates airway",
     reviews: "(22 Reviews)",
@@ -46,7 +46,7 @@ const packages = [
   },
   {
     id: 6,
-    image: "/public/img/ethiopian.jpg",
+    image: "/img/ethiopian.jpg",
     location: "Australia",
     title: "Cheap Flights with Ethiopion airway",
     reviews: "(35 Reviews)",
@@ -54,7 +54,7 @@ const packages = [
   },
   {
     id: 7,
-    image: "/public/img/etihad.jpg",
+    image: "/img/etihad.jpg",
     location: "Egypt",
     title: "Cheap Flights with Etihad airway",
     reviews: "(32 Reviews)",
@@ -62,7 +62,7 @@ const packages = [
   },
   {
     id: 8,
-    image: "/public/img/flare.jpg",
+    image: "/img/flare.jpg",
     location: "Egypt",
     title: "Cheap Flights with Flare airway",
     reviews: "(43 Reviews)",
@@ -70,7 +70,7 @@ const packages = [
   },
   {
     id: 9,
-    image: "/public/img/france.jpg",
+    image: "/img/france.jpg",
     location: "Egypt",
     title: "Cheap Flights with France airway",
     reviews: "(30 Reviews)",
@@ -78,7 +78,7 @@ const packages = [
   },
   {
     id: 10,
-    image: "/public/img/kenya.jpg",
+    image: "/img/kenya.jpg",
     location: "Egypt",
     title: "Cheap Flights with Kenya airway",
     reviews: "(19 Reviews)",
@@ -86,7 +86,7 @@ const packages = [
   },
   {
     id: 11,
-    image: "/public/img/lynax.jpg",
+    image: "/img/lynax.jpg",
     location: "Egypt",
     title: "Cheap Flights with Leynax airway",
     reviews: "(27 Reviews)",
@@ -94,7 +94,7 @@ const packages = [
   },
   {
     id: 12,
-    image: "/public/img/peace.jpg",
+    image: "/img/peace.jpg",
     location: "Egypt",
     title: "Cheap Flights with Peace airway",
     reviews: "(28 Reviews)",
@@ -102,7 +102,7 @@ const packages = [
   },
   {
     id: 13,
-    image: "/public/img/porter.jpg",
+    image: "/img/porter.jpg",
     location: "Egypt",
     title: "Cheap Flights with Porter airway",
     reviews: "(27 Reviews)",
@@ -110,7 +110,7 @@ const packages = [
   },
   {
     id: 14,
-    image: "/public/img/transat.jpg",
+    image: "/img/transat.jpg",
     location: "Egypt",
     title: "Cheap Flights with Transat airway",
     reviews: "(38 Reviews)",
@@ -118,7 +118,7 @@ const packages = [
   },
   {
     id: 15,
-    image: "/public/img/turkish.jpg",
+    image: "/img/turkish.jpg",
     location: "Egypt",
     title: "Cheap Flights with Turkish airway",
     reviews: "(25 Reviews)",

@@ -13,7 +13,7 @@ export default function Pakagedetail() {
       <div
         className="h-[60vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
-          backgroundImage: "url('public/img/pexels-freestockpro-2166553.jpg')"
+          backgroundImage: "url('/img/pexels-freestockpro-2166553.jpg')"
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>

@@ -5,27 +5,27 @@ import { motion } from "framer-motion";
 
 const destinations = [
   {
-    image: "/public/img/air.jpeg",
+    image: "/img/air.jpeg",
     title: "Cheap Flights with "
   },
   {
-    image: "/public/img/air2.jpeg",
+    image: "/img/air2.jpeg",
     title: " Cheap Flights with"
   },
   {
-    image: "/public/img/air8.webp",
+    image: "/img/air8.webp",
     title: " Cheap Flights with"
   },
   {
-    image: "/public/img/air11.png",
+    image: "/img/air11.png",
     title: "Cheap Flights with"
   },
   {
-    image: "/public/img/air5.jpg",
+    image: "/img/air5.jpg",
     title: "Cheap Flights with"
   },
   {
-    image: "/public/img/air4.jpg",
+    image: "/img/air4.jpg",
     title: "Cheap Flights with"
   }
 ];

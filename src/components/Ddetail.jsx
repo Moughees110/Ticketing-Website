@@ -15,7 +15,7 @@ export default function Ddetail() {
       <div
         className="h-[60vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
-          backgroundImage: "url('public/img/pexels-freestockpro-2070485.jpg')"
+          backgroundImage: "url('/img/pexels-freestockpro-2070485.jpg')"
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
@@ -41,7 +41,7 @@ export default function Ddetail() {
         {/* Section 1 */}
         <div className="flex flex-col md:flex-row items-center gap-10">
           <img
-            src="/public/img/destination1.webp"
+            src="/img/destination1.webp"
             alt="Beach Escape"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -72,7 +72,7 @@ export default function Ddetail() {
             </p>
           </div>
           <img
-            src="/public/img/destination4.webp"
+            src="/img/destination4.webp"
             alt="Rome History"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -81,7 +81,7 @@ export default function Ddetail() {
         {/* Section 3 */}
         <div className="flex flex-col md:flex-row items-center gap-10">
           <img
-            src="/public/img/destination2.webp"
+            src="/img/destination2.webp"
             alt="City Lights"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -112,7 +112,7 @@ export default function Ddetail() {
             </p>
           </div>
           <img
-            src="/public/img/destination3.webp"
+            src="/img/destination3.webp"
             alt="Qatar Desert"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />

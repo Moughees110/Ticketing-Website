@@ -5,32 +5,32 @@ import { motion } from "framer-motion";
 
 const destinations = [
   {
-    image: "/public/img/destination1.webp",
+    image: "/img/destination1.webp",
     title: "Cheap Flights to Mountain Escape ",
     location: "Maldives"
   },
   {
-    image: "/public/img/destination.webp",
+    image: "/img/destination.webp",
     title: " Cheap Flights to Beautiful Beach",
     location: "Switzerland"
   },
   {
-    image: "/public/img/destination2.webp",
+    image: "/img/destination2.webp",
     title: " Cheap Flights to City Lights",
     location: "New York"
   },
   {
-    image: "/public/img/destination3.webp",
+    image: "/img/destination3.webp",
     title: "Cheap Flights to Desert Adventure",
     location: "Qatar"
   },
   {
-    image: "/public/img/destination4.webp",
+    image: "/img/destination4.webp",
     title: "Cheap Flights to Historic Wonders",
     location: "Rome"
   },
   {
-    image: "/public/img/destination.webp",
+    image: "/img/destination.webp",
     title: "Cheap Flights to Tropical Paradise",
     location: "Bali"
   }

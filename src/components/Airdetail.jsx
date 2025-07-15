@@ -14,7 +14,7 @@ export default function Airdetail() {
         className="h-[60vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('public/img/I2S4JYNUS5BZFFJR4XPBN2V2IQ (1).jpg')"
+            "url('/img/I2S4JYNUS5BZFFJR4XPBN2V2IQ (1).jpg')"
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
@@ -38,7 +38,7 @@ export default function Airdetail() {
         {/* Airline Overview */}
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/public/img/takeof.webp"
+            src="/img/takeof.webp"
             alt="Airline Overview"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -57,7 +57,7 @@ export default function Airdetail() {
         {/* History */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-6">
           <img
-            src="/public/img/takeof2.jpg"
+            src="/img/takeof2.jpg"
             alt="History"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -77,7 +77,7 @@ export default function Airdetail() {
         {/* Fleet */}
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/public/img/takeof3.jpg"
+            src="/img/takeof3.jpg"
             alt="Fleet"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -97,7 +97,7 @@ export default function Airdetail() {
         {/* In-Flight Experience */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-6">
           <img
-            src="/public/img/I2S4JYNUS5BZFFJR4XPBN2V2IQ (1).jpg"
+            src="/img/I2S4JYNUS5BZFFJR4XPBN2V2IQ (1).jpg"
             alt="In-Flight Experience"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -116,7 +116,7 @@ export default function Airdetail() {
         {/* Global Reach */}
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/public/img/air12.jpeg"
+            src="/img/air12.jpeg"
             alt="Global Connectivity"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -136,7 +136,7 @@ export default function Airdetail() {
         {/* Sustainability */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-6">
           <img
-            src="/public/img/air11.png"
+            src="/img/air11.png"
             alt="Sustainability"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />
@@ -155,7 +155,7 @@ export default function Airdetail() {
         {/* Awards */}
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/public/img/air13.jpg"
+            src="/img/air13.jpg"
             alt="Award-Winning Service"
             className="w-full md:w-1/2 rounded-xl shadow-lg"
           />

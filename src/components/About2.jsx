@@ -10,7 +10,7 @@ const About2 = () => {
       {/* Left Image Section */}
       <div className="relative w-full md:w-1/2">
         <img
-          src="../../public/img/about2.jpg"
+          src="/img/about2.jpg"
           alt="About"
           className="rounded-2xl w-full h-auto object-cover"
         />

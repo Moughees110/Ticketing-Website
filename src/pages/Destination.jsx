@@ -53,7 +53,7 @@ const packages = [
   },
   {
     id: 7,
-    image: "/public/img/dest.jpg",
+    image: "/img/dest.jpg",
     location: "Egypt",
     title: "Cheap Flights to Entebbe",
     reviews: "(32 Reviews)",
@@ -61,7 +61,7 @@ const packages = [
   },
   {
     id: 8,
-    image: "/public/img/dest2.jpeg",
+    image: "/img/dest2.jpeg",
     location: "Egypt",
     title: "Cheap Flights to  Hargeisa",
     reviews: "(43 Reviews)",
@@ -69,7 +69,7 @@ const packages = [
   },
   {
     id: 9,
-    image: "/public/img/dest3.jpg",
+    image: "/img/dest3.jpg",
     location: "Egypt",
     title: "Cheap Flights to Khartoum",
     reviews: "(30 Reviews)",
@@ -77,7 +77,7 @@ const packages = [
   },
   {
     id: 10,
-    image: "/public/img/dest4.jpg",
+    image: "/img/dest4.jpg",
     location: "Egypt",
     title: "Cheap Flights to Lagos",
     reviews: "(19 Reviews)",
@@ -85,7 +85,7 @@ const packages = [
   },
   {
     id: 11,
-    image: "/public/img/dest5.jpg",
+    image: "/img/dest5.jpg",
     location: "Egypt",
     title: "Cheap Flights to Lilongwe",
     reviews: "(27 Reviews)",
@@ -93,7 +93,7 @@ const packages = [
   },
   {
     id: 12,
-    image: "/public/img/dest6.jpeg",
+    image: "/img/dest6.jpeg",
     location: "Egypt",
     title: "Cheap Flights to Luanda",
     reviews: "(28 Reviews)",
@@ -101,7 +101,7 @@ const packages = [
   },
   {
     id: 13,
-    image: "/public/img/dest7.jpg",
+    image: "/img/dest7.jpg",
     location: "Egypt",
     title: "Cheap Flights to  Lusaka",
     reviews: "(27 Reviews)",
@@ -109,7 +109,7 @@ const packages = [
   },
   {
     id: 14,
-    image: "/public/img/dest8.jpg",
+    image: "/img/dest8.jpg",
     location: "Egypt",
     title: "Cheap Flights to Mombasa",
     reviews: "(38 Reviews)",
@@ -117,7 +117,7 @@ const packages = [
   },
   {
     id: 15,
-    image: "/public/img/dest9.jpg",
+    image: "/img/dest9.jpg",
     location: "Egypt",
     title: "Cheap Flights to Zanzibar",
     reviews: "(25 Reviews)",
